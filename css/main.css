@@ -102,7 +102,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Prompt', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
@@ -111,21 +111,34 @@ body {
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  background-color: #5d6d7e;
+  height: 70px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  padding: 30px;
+  font-size: 3em;
+}
+
+footer img {
+    padding: 1rem;
+    max-width: 100%;
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+  background-color: #5d6d7e;
+  height: 100px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  padding: 30px;
+}
+
+main span {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
 }
 
 header,
@@ -139,20 +152,39 @@ main {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .flex-items {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #a2d2df;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+#div-1, #div-2, #div-3 {
+    /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+    color: #eee;
+    line-height: 1.5em;
+    font-size: 1em;
+    background-color: #5d6d7e;
+    height: 300px;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding: 15px;
+    flex-grow: 2;
+  }
 
 /* ==========================================================================
    Helper classes
